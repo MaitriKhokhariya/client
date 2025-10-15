@@ -1,5 +1,7 @@
-  import { useState, useEffect } from 'react';
+ "use client";
+ import {  useEffect } from 'react';
   import axios from 'axios';
+import { useState } from 'react';
 
   export default function Admin() {
     const [logs, setLogs] = useState([]);
